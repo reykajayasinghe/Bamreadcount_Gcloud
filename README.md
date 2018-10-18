@@ -10,23 +10,22 @@ Make sure you have a bamlist and annotation file
 
 ### Input ANNOTATION file
 
-*3_120321053_A_G        TCGA-AB-3472
-*17_40714372_A_G        TCGA-EA-A292
-
-*20_3785604_A_G TCGA-ET-AAE3_T,TCGA-DP-ATJC_T,TCGA-DD-AAAN_T,TCGA-AA-ADDD_T
+ * 3_120321053_A_G        TCGA-AB-3472
+ * 17_40714372_A_G        TCGA-EA-A292
+ * 20_3785604_A_G TCGA-ET-AAE3_T,TCGA-DP-ATJC_T,TCGA-DD-AAAN_T,TCGA-AA-ADDD_T
 
 ### Input BAM file
 
 bamlist is indicated in (find_bam.pl script)
 
-*UUID_1 TCGA_Barcode    UUID_2  GS_Path File_Size
-*191c5e31-2f32-4737-a59e-c9b1bfaafd67   TCGA-A6-6782-10A-01D-1835-10    2df2e3c3-ea94-4953-919f-bc556bdf0808    gs://5aa919de-0aa0-43ec-9ec3-288481102b6d/tcga/COAD/DNA/WXS/BCM/ILLUMINA/TCGA-A6-6782-10A-01D-1835-10_hg19_Illumina.bam 12394088167
+ * UUID_1 TCGA_Barcode    UUID_2  GS_Path File_Size
+ * 191c5e31-2f32-4737-a59e-c9b1bfaafd67   TCGA-A6-6782-10A-01D-1835-10    2df2e3c3-ea94-4953-919f-bc556bdf0808    gs://5aa919de-0aa0-43ec-9ec3-288481102b6d/tcga/COAD/DNA/WXS/BCM/ILLUMINA/TCGA-A6-6782-10A-01D-1835-10_hg19_Illumina.bam 12394088167
 
 ### Output file
 
-*1       gs://5aa919de-0aa0-43ec-9ec3-288481102b6d/tcga/BRCA/DNA/WXS/BI/ILLUMINA/TCGA_MC3.Sample3.bam       19:45854542-45854542    bamsite_1.yaml
-*2       gs://5aa919de-0aa0-43ec-9ec3-288481102b6d/tcga/BRCA/DNA/WXS/BI/ILLUMINA/TCGA_MC3.Sample2.bam       19:45854542-45854542    bamsite_2.yaml
-*3       gs://5aa919de-0aa0-43ec-9ec3-288481102b6d/tcga/BRCA/DNA/WXS/BI/ILLUMINA/TCGA_MC3.Sample1.bam       19:45854542-45854542    bamsite_3.yaml
+ * 1       gs://5aa919de-0aa0-43ec-9ec3-288481102b6d/tcga/BRCA/DNA/WXS/BI/ILLUMINA/TCGA_MC3.Sample3.bam       19:45854542-45854542    bamsite_1.yaml
+ * 2       gs://5aa919de-0aa0-43ec-9ec3-288481102b6d/tcga/BRCA/DNA/WXS/BI/ILLUMINA/TCGA_MC3.Sample2.bam       19:45854542-45854542    bamsite_2.yaml
+ * 3       gs://5aa919de-0aa0-43ec-9ec3-288481102b6d/tcga/BRCA/DNA/WXS/BI/ILLUMINA/TCGA_MC3.Sample1.bam       19:45854542-45854542    bamsite_3.yaml
 
 ``
 perl find_bam.pl anno > bamsite_index.txt
