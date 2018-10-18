@@ -1,9 +1,10 @@
 # Bamreadcount analysis on Gcloud
 This pipeline will help you to generate necessary files to run bamreadcount on the google cloud api.
+Many scripts below were developed by wen-wei liang
 
 ## Generate input data based on mutations and sample names
 Make sure you have a bamlist and annotation file
-### Input ANNOTATION file:
+### Input ANNOTATION file
 3_120321053_A_G        TCGA-AB-3472
 17_40714372_A_G        TCGA-EA-A292
 20_3785604_A_G TCGA-ET-AAE3_T,TCGA-DP-ATJC_T,TCGA-DD-AAAN_T,TCGA-AA-ADDD_T
